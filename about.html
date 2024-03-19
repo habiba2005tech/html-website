@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.html">
+    <script src="https://kit.fontawesome.com/4d8395d8aa.js" crossorigin="anonymous"> </script>
+
+<body>
+    
+
+<section class="sub_header">
+    <nav>
+        <a href="index.html"><img src="eduford_img/logo.png" alt=""></a>
+        <div class="nav_links" id="navLinks">
+            <i class="fa fa-times" onclick="hide_menu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">COURSES</a></li>
+                <li><a href="">BLOG</a></li>
+                <li><a href="">CONTACT</a></li>
+            </ul>
+
+        </div>
+        <i class="fa fa-bars"onclick="show_menu()"></i>
+    </nav>
+    <h1>About Us</h1>
+
+</section>
+ <!-- ---------about us content--------- -->
+
+
+<section class="about_us">
+    <div class="row">
+        <div class="about_col">
+            <h1>We are the world's Largest university</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum adipisci voluptate eligendi quod, fugiat eos, optio dicta nulla provident temporib</p>
+            <a href="" class="hero_btn red_btn">Explore Now</a>
+        </div>
+        <div class="about_col">
+            <img src="eduford_img/about.jpg" alt="">
+        </div>
+    </div>
+</section>
+
+
+
+
+<!-- ---------footter--------- -->
+
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br> Officiis rem distinctio a molestias consequuntur magni reiciendis error aperiam dignissimos,</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i> 
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> Easy Tutorials</p>
+</section>
+
+
+
+
+            <!-- ------------javaScript------ -->
+            <script>
+            var navLinks = document.getElementById("navLinks");
+            function show_menu(){
+            navLinks.style.right = "0";
+            }
+            function hide_menu(){
+            navLinks.style.right = "-220px";
+            }
+            </script>
+
+            </body>
+            </html>
